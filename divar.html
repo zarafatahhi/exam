@@ -1,0 +1,687 @@
+ <!doctype html>
+  <html>
+  <head>
+  <meta charset="utf-8">
+  <title>divar</title>
+  </head>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <body>
+    
+      <div class="menu">
+        <img src="download-fococlipping-standard.png" class="m1" >
+        <ul class="rt" >
+          <li ><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>تهران</a></li>
+          <li ><a href="#"><i class="fa fa-list-ul" aria-hidden="true"></i>دسته بندی</a></li>  
+          <li ><input type="text" dir="rtl" placeholder="جستجو همه آگهی ها"></li>
+        </ul>
+         <ul class="rt1">   
+          <li ><a href="#"><i class="fa fa-user" aria-hidden="true" ></i>دیوار من </a></li>
+          <li ><a href="#"><i class="fa fa-comment" aria-hidden="true"></i>چت</a></li>
+          <li ><a href="#"><i></i>پشتیبانی</a></li>
+          </ul> 
+          <button type="button" class="btn"><p>ثبت آگهی</p></button>
+    
+      </div>
+
+
+      <div class="all">
+        <div class="part1"> 
+        <div class="slidbar">
+         <h2>دسته ها</h2>
+          <ul>
+            <li><i class="fa fa-building" aria-hidden="true" > </i> <a href="#"> املاک</a></li>
+            <li><i class="fa fa-car" aria-hidden="true" ></i><a href="#">وسایل نقلیه</a></li>
+            <li><i class='fas fa-tablet-alt'></i><a href="#">کالای دیجیتال</a></li>
+            <li><i class='fas fa-couch'></i><a href="#">خانه وآشپزخانه</a></li>
+            <li><i class='fas fa-brush'></i> <a href="#">خدمات</a></li>
+            <li><i class='fas fa-chair'></i> <a href="#">تجهیزات</a></li>
+            <li><i class='fas fa-tshirt'></i><a>وسایل شخصی</a></li>
+            <li><i class='far fa-laugh-beam'></i><a href="#">سرگرمی و فراغت</a></li>
+            <li><i class='fas fa-american-sign-language-interpreting'></i><a href="#">اجتماعی</a></li>
+            <li><i class="fa fa-suitcase" aria-hidden="true"></i><a href="#">استخدامی و کاریابی</a></li>
+          </ul>
+      
+        </div>
+
+
+        <div class="part2">
+        <div class="part2-1">
+          <input type="radio" name="god" id="section1" class="accordion--input">
+          <label for="section1" class="accordion--label"> محل</label>
+          <div class="accordion--content">
+              <p>تعیین محل:</p>
+              <select >
+                <option val="">تعیین محل </option>
+                <option val="1">تهران </option>
+                <option val="2">شهر ری</option>
+                <option val="3">پرند</option>
+                <option val="4">شهرک غرب</option>
+                <option val="5">قدس</option>
+            </select>
+             
+          </div>
+        </div>
+
+
+  <!-- برای مشخص کردن فایل قیمت گذاری-->
+
+        <div class="part2-2">
+          <input type="radio" name="god" id="section2" class="accordion--input">
+          <label for="section2" class="accordion--label"> قیمت</label>
+          <div class="accordion--content">
+          <p>حداقل:</p>
+          <select >
+            <option val="">تعیین قیمت</option>
+            <option val="1">10هزار</option>
+            <option val="2">15هزار</option>
+            <option val="3">20هزار</option>
+            <option val="4">25هزار</option>
+            <option val="5">30هزار</option>
+            <option val="5">35هزار</option>
+            <option val="5">40هزار</option>
+            <option val="5">45هزار</option>
+            <option val="5">50هزار</option>
+          </select>
+
+          <p>حداکثر:</p>
+            <select >
+            <option val="">تعیین قیمت</option>
+            <option val="1">10هزار</option>
+            <option val="2">15هزار</option>
+            <option val="3">20هزار</option>
+            <option val="4">25هزار</option>
+            <option val="5">30هزار</option>
+            <option val="5">35هزار</option>
+            <option val="5">40هزار</option>
+            <option val="5">45هزار</option>
+            <option val="5">50هزار</option>
+          </select>
+         </div>
+    </div>
+
+
+ <!-- برای مشخص کردن نوع اگهی-->
+
+
+        <div class="part2-3">
+          <input type="radio" name="god" id="section3" class="accordion--input">
+          <label for="section3" class="accordion--label">وضعیت آگهی</label>
+          <div class="accordion--content">
+               
+              <label class="switch" style="margin-left:100px;">
+              <p>فقط_عکسدار</p>
+              <input  type="checkbox">
+              <span class="slider round"></span>
+              </label>
+      
+            
+              <label class="switch" style="margin-left:100px;">
+              <p>فقط_فوری</p>
+              <input type="checkbox">
+              <span class="slider round"></span>    
+              </label>
+           
+          </div>
+        </div>
+      
+       
+      
+        </div>
+   
+         <div class="ed">
+          <a href="#">درباره دیوار</a>
+          <a href="#">بلاگ</a>
+          <a href="#">کسب و کار</a>	
+          <br><br>
+          <a href="#">دریافت برنامه</a>	
+          <a href="#">پشتیبانی و قوانین</a>
+
+         </div>
+       
+          
+   
+
+         <div class="end">
+
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i> </a>	
+          <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>	
+          <a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+      
+         </div> 
+      
+        </div>
+      
+        
+        
+      
+        </div>
+    
+
+        <div class="other">
+          <div class="space">
+              <p> دیوار تهران:انواع آگهی وخدمات در تهران</p>
+          </div>
+            <div class="box">
+           <div class="box1">
+          <img src="image/AYRQ9eQZ.jpg"> 
+          </div>
+           <div class="box2">
+          <div class="b21">
+         <h2>مبل راحتی مدل ماهور</h2>
+          </div> 
+          <br><br><br>
+          <div class="b21">
+          <p>نو</p>   
+          </div>
+
+          <div class="b21">
+          <p>4,000,000تومان</p>    
+          </div> 
+          <div class="b21">
+            <p>  فروشگاه مبلمان کاج تهران</p>
+            
+          </div> 
+        </div>
+          </div>
+          <div class="box">
+          <div class="box1">
+            <img src="image/wYTOgYik.jpg">
+           </div>
+          <div class="box2">
+            <div class="b21">
+              <h2>آپارتمان نوساز دو خوابه</h2>
+            </div> 
+            <br><br><br>
+            <div class="b21">
+             
+            </div> 
+      
+             <div class="b21">
+              <p>18,000,000,000تومان</p>
+           </div> 
+           <div class="b21">
+            <p>آژانس املاک تهران</p>
+          </div> 
+         </div>
+          
+        </div>
+        <div class="box">
+          <div class="box1"> 
+            <img src="image/wYP2jAtM.jpg">
+          </div>
+          <div class="box2">
+            <div class="b21">
+              <h2> ماشین شارژی</h2>
+             
+            </div> 
+            <br><br><br>
+            <div class="b21">
+              <p> در حد نو</p>
+             
+            </div> 
+      
+             <div class="b21">
+              <p>4,000,000تومان</p>
+           </div> 
+           <div class="b21">
+            <p>تهران</p>
+          </div> 
+         </div>
+        
+        </div>
+      
+        <div class="box">
+          <div class="box1"> 
+            <img src="image/wYPO4S0D.jpg">
+          </div>
+          <div class="box2">
+            <div class="b21">
+             <h2> پراید صندوق دار مدل1383</h2>
+            </div> 
+            <br><br><br>
+            <div class="b21">
+              <p>68 کیلومتر </p>
+             
+            </div> 
+      
+             <div class="b21">
+              <p> توافقی</p>
+           </div> 
+           <div class="b21">
+             <p>شهرک ولیعصر</p>
+          </div>
+         </div>
+        </div>
+      
+        <div class="box">
+          <div class="box1"> 
+            <img src="image/'cat.jpg">
+          </div>
+          <div class="box2">
+            <div class="b21">
+             <h2>واگذاری گربه</h2>
+            </div> 
+            <br><br><br>
+            <div class="b21">
+             <p></p>
+            </div> 
+      
+             <div class="b21">
+             <p></p>
+           </div> 
+           <div class="b21">
+             <p>شهرک غرب</p>
+          </div>
+         </div>
+        </div>
+      
+        <div class="box">
+          <div class="box1"> 
+            <img src="image/ساید-بای-ساید-سریی.jpg">
+          </div>
+          <div class="box2">
+            <div class="b21">
+             <h2>یخچال اسنوا</h2>
+            </div> 
+            <br><br><br>
+            <div class="b21">
+             <p>نو</p>
+            </div> 
+      
+             <div class="b21">
+             <p>32,000,000تومان</p>
+           </div> 
+           <div class="b21">
+             <p><span>فروشگاه  </span> تهران</p>
+          </div>
+         </div>
+        </div>
+      
+        <div class="box">
+          <div class="box1">
+            <img src="image/ماشین لباس.jpg">
+             </div>
+          <div class="box2">
+            <div class="b21">
+             <h2>ماشین لباس شویی مدل sam</h2>
+            </div> 
+            <br><br><br>
+            <div class="b21">
+             <p>نو</p>
+            </div> 
+      
+             <div class="b21">
+             <p>12,000,000تومان</p>
+           </div> 
+           <div class="b21">
+             <p><span>فروشگاه </span> تهران</p>
+          </div>
+         </div>
+        </div>
+      
+        <div class="box">
+          <div class="box1">
+            <img src="image/کتانی.jpg">
+             </div>
+          <div class="box2">
+            <div class="b21">
+             <h2>کتانی سایز42 دوخت ترکیه</h2>
+            </div> 
+            <br><br><br>
+            <div class="b21">
+             <p>در حد نو</p>
+            </div> 
+      
+             <div class="b21">
+             <p>100000</p>
+           </div> 
+           <div class="b21">
+             <p>راهن آهن</p>
+          </div>
+         </div>
+        </div>
+      
+        <div class="box">
+          <div class="box1">
+            <img src="image/کیف.jpg">
+             </div>
+          <div class="box2">
+            <div class="b21">
+             <h2>کیف دوشی</h2>
+            </div> 
+            <br><br><br>
+            <div class="b21">
+             <p>در حد نو</p>
+            </div> 
+      
+             <div class="b21">
+             <p>150000</p>
+           </div> 
+           <div class="b21">
+             <p>تهران پارس</p>
+          </div>
+         </div>
+        </div>
+      
+        <div class="box">
+          <div class="box1"> 
+            <img src="image/گوشی.jpg">
+          </div>
+          <div class="box2">
+            <div class="b21">
+          <h2>گوشی سامسونگ A71</h2>
+            </div>
+            <br><br><br>
+            <div class="b21">
+             <p>نو</p>
+            </div> 
+      
+             <div class="b21">
+             <p>10000000</p>
+           </div> 
+           <div class="b21">
+            <p><span>فروشگاه </span>شهرک فردوسی</p> 
+          </div>
+         </div>
+        </div>
+      
+        <div class="box">
+          <div class="box1"> <img src="image/پارس.jpg"> </div>
+          <div class="box2">
+            <div class="b21">
+             <h2>پژوه پارس سال مدل 1395</h2>
+            </div> 
+            <br><br><br>
+            <div class="b21">
+             <p>12 کیلومتر</p>
+            </div> 
+      
+             <div class="b21">
+             <p>280000000</p>
+           </div> 
+           <div class="b21">
+             <p>تهران</p>
+          </div>
+         </div>
+        </div>
+      
+        <div class="box">
+          <div class="box1">
+            <img src="image/ویلاJ.jpg"> </div>
+          <div class="box2">
+            <div class="b21">
+             <h2>آپارتمان 125متری کیدنخورده</h2>
+            </div> 
+            <br><br><br>
+            <div class="b21">
+             <p>ودیعه:600000000تومان</p>
+            </div> 
+      
+             <div class="b21">
+             <p>اجاره ماهانه:12000000تومان</p>
+           </div> 
+           <div class="b21">
+             <p>جنت آباد</p>
+          </div>
+         </div>
+        </div>
+      
+        <div class="box">
+          <div class="box1">
+            <img src="image/طوطی.jpg">
+             </div>
+          <div class="box2">
+            <div class="b21">
+             <h2>طوطی برزیلی</h2>
+            </div> 
+            <br><br><br>
+            <div class="b21">
+             <p></p>
+            </div> 
+      
+             <div class="b21">
+             <p>توافقی</p>
+           </div> 
+           <div class="b21">
+             <p>کوهک</p>
+          </div>
+         </div>
+        </div>
+      
+        <div class="box">
+          <div class="box1"> 
+            <img src="image/تشک .jpg">
+          </div>
+          <div class="box2">
+            <div class="b21">
+             <h2> تشک رویال</h2>
+            </div> 
+            <br><br><br>
+            <div class="b21">
+             <p>نو</p>
+            </div> 
+      
+             <div class="b21">
+             <p>4000000تومان</p>
+           </div> 
+           <div class="b21">
+             <p><span>فروشگاه</span>تهران</p>
+          </div>
+         </div>
+        </div>
+      
+        <div class="box">
+          <div class="box1">
+            <img src="image/ویلاJ.jpg"> </div>
+          <div class="box2">
+            <div class="b21">
+             <h2> ولنجک 430متری برج باغ مدرن</h2>
+            </div>
+            <br><br><br>
+            <div class="b21">
+             <p></p>
+            </div> 
+      
+             <div class="b21">
+             <p>172000000000</p>
+           </div> 
+           <div class="b21">
+             <p>مشاوره املاک ولنجک</p>
+          </div>
+         </div>
+        </div>
+      
+        <div class="box">
+          <div class="box1"> 
+            <img src="image/shast.jpg">
+          </div>
+          <div class="box2">
+            <div class="b21">
+             <h2>62متری دو خوابه غرق در نور</h2>
+            </div> 
+            <br><br><br>
+            <div class="b21">
+             <p>نوساز</p>
+            </div> 
+      
+             <div class="b21">
+             <p>8800000000</p>
+           </div> 
+           <div class="b21">
+             <p> مشاور املاک صادقیه</p>
+          </div>
+         </div>
+        </div>
+      
+        <div class="box">
+          <div class="box1"> 
+            <img src="image/500.jpg">
+          </div>
+          <div class="box2">
+            <div class="b21">
+             <h2>500متر دوبلکس ویلایی</h2>
+            </div>
+            <br><br><br>
+            <div class="b21">
+              <p><span>ودیعه:</span> توافقی</p>
+          
+            </div> 
+      
+             <div class="b21">
+             <p><span>اجاره ماهانه:</span>توافقی</p>
+           </div> 
+           <div class="b21">
+             <p>آژانس املاک حکیمیه</p>
+          </div>
+         </div>
+        </div>
+      
+        <div class="box">
+          <div class="box1">
+            <img src="image/iphon.jpg">
+             </div>
+          <div class="box2">
+            <div class="b21">
+             <h2>iphone 11 pro max</h2>
+            </div> 
+            <br><br><br>
+            <div class="b21">
+             <p> درحد نو</p>
+            </div> 
+      
+             <div class="b21">
+             <p>15000000تومان</p>
+           </div> 
+           <div class="b21">
+            <p><span>فروشگاه </span> گیشا</p> 
+          </div>
+         </div>
+        </div>
+      
+        <div class="box">
+          <div class="box1">
+            <img src="image/macbook.jpg">
+           </div>
+          <div class="box2">
+            <div class="b21">
+              <h2> لپ تاپ  macbook</h2>
+            </div> 
+            <br><br><br>
+            <div class="b21">
+             <p>نو</p>
+            </div> 
+      
+             <div class="b21">
+             <p>32000000 تومان</p>
+           </div> 
+           <div class="b21">
+             <p><span> فروشگاه </span>  نیاوران</p>
+          </div>
+         </div>
+        </div>
+      
+        <div class="box">
+          <div class="box1">
+            <img src="image/ldel.jpg">
+             </div>
+          <div class="box2">
+            <div class="b21">
+             <h2>ال ای دی 43جی</h2>
+            </div> 
+            <br><br><br>
+            <div class="b21">
+             <p>نو</p>
+            </div> 
+      
+             <div class="b21">
+             <p>8000000تومان</p>
+           </div> 
+           <div class="b21">
+             <p><span> فروشگاه</span>  تهرانپارس</p>
+          </div>
+         </div>
+        </div>
+      
+        <div class="box">
+          <div class="box1">
+            <img src="image/mobl.jpg">
+             </div>
+          <div class="box2">
+            <div class="b21">
+             <h2>مبل مدل یونانی </h2>
+             </div> 
+             <br><br><br>
+            <div class="b21">
+             <p>نو</p>
+            </div> 
+      
+             <div class="b21">
+             <p>8500000تومان</p>
+           </div> 
+           <div class="b21">
+             <p>مبلمان خانگی نعمت آباد</p>
+          </div>
+         </div>
+        </div>
+      
+        <div class="box">
+          <div class="box1">
+            <img src="image/jac.jpg">
+           </div>
+          <div class="box2">
+            <div class="b21">
+             <h2>جک s5 مدل 1397</h2>
+            </div> 
+            <br><br><br>
+            <div class="b21">
+             <p>74000 کیلومتر</p>
+            </div> 
+      
+             <div class="b21">
+             <p>840000000 تومان</p>
+           </div> 
+           <div class="b21">
+             <p> تهران</p>
+          </div>
+        </div>
+      </div>
+    
+      
+       </div>
+
+
+
+           
+            
+
+       
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </html>
+
